@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta  charset="utf-8">
+        <title>Main menu</title>
+        <link href="../css/styleAnimePage.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="content">
+            <!-- Banner -->
+            <div class="banner">
+                <a href="animepage.html">Anime</a>
+                <a href="gamepage.html">Jeux</a>
+                <a href="canvas.html">Canevas</a>
+                <a href="discord.html">Discord</a>
+                <a href="index.html"><img src="../images/animeAllLogo.jpg" alt="Logo" /></a>
+                <div class="div_button">
+                    <button id="contactus" onclick="contactus()">Nous contacter</button>
+                </div>  
+    
+            </div>
+            <!-- /Banner -->
+
+            <!-- Sommaire -->
+            <div class="sommaire">
+                <h1 id="som">Sommaire</h1>
+                <ul>
+                    <li>Bande annonce anim&eacute;
+                        <a href="#bandea"><img class="check" src="../images/okcheck.jpg" alt="check image" ></a>
+                    </li>
+                    <li>Sortie Attendue
+                        <a href="#exit"><img class="check" src="../images/okcheck.jpg" alt="check image" ></a>
+                    </li>
+                    <li>classement des meilleur isekai
+                        <a href="#isekai"><img class="check" src="../images/okcheck.jpg" alt="check image" ></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /Sommaire -->
+
+            <br>
+            <br>
+            <br>
+            <!-- Bande Annonce -->
+            <div class="bandeannonce">
+    
+                <table class="board">
+                    <caption id="bandea" class="tablecaption">Quelque anim&eacute; à voir absolument en 2022 !</caption>
+                    <thead>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><iframe src="https://youtube.com/embed/0fWoNQifu2s"></iframe></td>
+                            <td><iframe src="https://youtube.com/embed/KnpVhlDoogM"></iframe></td>
+                            <td><iframe src="https://youtube.com/embed/KkAgtY76RsM"></iframe></td>
+                        </tr>
+
+                        <tr>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                        </tr>
+                    </tbody>
+                    
+                   <tfoot>
+                    <tr>
+                        <td><iframe src="https://youtube.com/embed/uhlBqFj9kDw"></iframe></td>
+                        <td><iframe src="https://youtube.com/embed/BbBMYnfSPr8"></iframe></td>
+                        <td><iframe src="https://youtube.com/embed/rqCnRupkXcg"></iframe></td>
+                    </tr>
+                   </tfoot>
+                </table>
+            </div>
+            <!-- /Bande Annonce -->
+
+            <!-- Sortie attendue-->
+            <div class="exit">
+                <h1 id="exit">Sortie Attendue</h1>
+                
+                <ul>
+                    <li>Danmachi (saison 4)
+                        
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/danmachi.jpg" alt="sortie Attendue">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Rikei ga Koi ni Ochita no de Shoumei Shite Mita
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/RikeigaKoiniOchitanodeShoumeiShiteMita.jpg" alt="sortie Attendue">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Love Live! Nijigasaki Gakuen School Idol Doukoukai (Saison 2)
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/love_live_nijigasaki_gakuen_school_idol_doukoukai_9214.jpg" alt="sortie Attendue">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Kanojo, Okarishimasu (Saison 2)
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/kanojo_okarishimasu_fr_9215.jpg" alt="sortie Attendue">
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Sortie attendue -->
+
+            <!-- Classement des meilleurs isekai -->
+            <div class="isekai">
+                <h1 id="isekai">Classement des meilleurs isekai</h1>
+                <ul>
+                    <li>Top 3
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/overlord.jpg" alt="isekai">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Top 2
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/loghorizon.jpg" alt="isekai">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Top 1
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <img src="../images/reZero.jpg" alt="isekai">
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Swip -->
+            <input id="next" type="button" value="Suivant" onclick="next()" />
+            <a href="#som" id="b-sommaire">Sommaire</a>
+            <input id="return" type="button" value="Retour" onclick="rtn()" />
+            <p id="day"></p>
+            <!-- /Swip -->
+        </div>
+        <script src="../js/scriptmain.js"></script>
+    </body>
+</html>

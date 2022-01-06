@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Canvas</title>
+        <link rel="stylesheet" type="text/css" href="../css/styleCanvas.css">
+    </head>
+    <body>
+        <div class="content">
+            <!-- Banner -->
+            <div class="banner">
+                <a href="animepage.html">Anime</a>
+                <a href="gamepage.html">Jeux</a>
+                <a href="canvas.html">Canevas</a>
+                <a href="discord.html">Discord</a>
+                <a href="index.html"><img src="../images/animeAllLogo.jpg" alt="Logo" /></a>
+    
+                <div class="div_button">
+                    <button id="contactus" onclick="contactus()">Nous contacter</button>
+                </div>  
+    
+            </div>
+            <!-- /Banner -->
+            
+            <!-- Sommaire -->
+            <div class="sommaire">
+                <h1 id="som">Sommaire</h1>
+                <ul>
+                    <li>Canevas
+                    </li>
+                </ul>
+            </div>
+
+            <canvas id="canvas1" width="400" height="400"></canvas>
+            <button onclick="canvas()">draw</button>
+            <!-- Swip -->
+            <input id="next" type="button" value="Suivant" onclick="next()" />
+            <a href="#som" id="b-sommaire">Sommaire</a>
+            <input id="return" type="button" value="Retour" onclick="rtn()" />
+            <p id="day"></p>
+            <!-- /Swip -->
+        </div>
+        <script src="../js/scriptmain.js"></script>
+        <script src="../js/canvas.js"></script>
+    </body>
+</html>

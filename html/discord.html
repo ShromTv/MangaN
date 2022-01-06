@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta  charset="utf-8">
+        <title>Discord</title>
+        <link href="../css/styleDiscord.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="content">
+            <!-- Banner -->
+            <div class="banner">
+                <a href="animepage.html">Anime</a>
+                <a href="gamepage.html">Jeux</a>
+                <a href="canvas.html">Canevas</a>
+                <a href="discord.html">Discord</a>
+                <a href="index.html"><img src="../images/animeAllLogo.jpg" alt="Logo" /></a>
+    
+                <div class="div_button">
+                    <button id="contactus" onclick="contactus()">Nous contacter</button>
+                </div>  
+    
+            </div>
+            <!-- /Banner -->
+
+            <!-- Sommaire -->
+            <div class="sommaire">
+                <h1 id="som">Sommaire</h1>
+                <ul>
+                    <li>Discord
+                        <a href="#discord"><img id="check" src="../images/okcheck.jpg" alt="check image" /></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Sommaire -->
+            <!-- Fornite -->
+            <div>
+                <h1>Fortnite clip</h1>
+                <video autoplay width="250" height="250" muted>
+                    <source src="../videos/30sec.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- /Fornite -->
+           <!--Discord-->
+            <div>
+                <p>Rejoins la commu !</p>
+                <a id="discord" href="https://discord.gg/en5382Kp">Lien Discord</a>
+            </div>
+            <!--/Discord-->
+
+            <!-- Swip -->
+            <input id="next" type="button" value="Suivant" onclick="next()" />
+            <a href="#som" id="b-sommaire">Sommaire</a>
+            <input id="return" type="button" value="Retour" onclick="rtn()" />
+            <p id="day"></p>
+            <!-- /Swip -->
+        </div>
+        <script src="../js/scriptmain.js"></script>
+    </body>
+</html>

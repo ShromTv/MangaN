@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Main menu</title>
+        <link href="../css/styleMainMenu.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content">
+            <!-- Banner -->
+            <div class="banner">
+                <a href="animepage.html">Anime</a>
+                <a href="gamepage.html">Jeux</a>
+                <a href="canvas.html">Canevas</a>
+                <a href="discord.html">Discord</a>
+                <a href="index.html"><img src="../images/animeAllLogo.jpg" alt="Logo" /></a>
+    
+                <div class="div_button">
+                    <button id="contactus" onclick="contactus()">Nous contacter</button>
+                </div>  
+    
+            </div>
+            <!-- /Banner -->
+
+            
+            <!-- Body -->
+            <div class="body">
+                <div class="image">
+                    <img src="../images/kimetsu.jpg" alt="kimetsu"/>
+                    <h1>TOUTE L'ACTUALIT&Eacute; MANGA ET ANIME</h1>
+                </div>
+
+                <!-- Sommaire -->
+                <div class="sommaire">
+                    <h1 id="som">Sommaire</h1>
+                    <ul>
+                        <li>Top 5 des meilleurs mangas de 2021
+                            <a href="#top5"><img id="check" src="../images/okcheck.jpg" alt="check image" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Sommaire -->
+
+                <div class="leaderboad">
+                    <h1 id="top5">Top 5 des meilleurs mangas de 2021</h1>
+                    <div>
+                        <ul>
+                            <li class="gsize">Top 5 : Dragon Ball
+                                <dl>
+                                    <dt></dt>
+                                    <dd>
+                                        <img src="../images/DragonBall.jpg" alt="top5" />
+                                    </dd>
+                                </dl>
+                            </li>
+
+                            <li class="gsize">Top 4 : Detective Conan
+                                <dl>
+                                    <dt></dt>
+                                    <dd>
+                                        <img src="../images/DetectiveConan.jpg" alt="top5" />
+                                    </dd>
+                                </dl>
+                            </li>
+
+                            <li class="gsize">Top 3 : Slam Dunk
+                                <dl>
+                                    <dt></dt>
+                                    <dd>
+                                        <img src="../images/SlamDunkTome.jpg" alt="top5" />
+                                    </dd>
+                                </dl>
+                            </li>
+
+                            <li class="gsize">Top 2 : Demon Slayer
+                                <dl>
+                                    <dt></dt>
+                                    <dd>
+                                        <img src="../images/KimetsuTome.jpg" alt="top5" />
+                                    </dd>
+                                </dl>
+                            </li>
+
+                            <li class="gsize">Top 1 : One Piece
+                                <dl>
+                                    <dt></dt>
+                                    <dd>
+                                        <img src="../images/onepiece.jpg" alt="top5"/>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- /Body -->
+            
+            <!-- Swip -->
+            <input id="next" type="button" value="Suivant" onclick="next()" />
+            <a href="#som" id="b-sommaire">Sommaire</a>
+            <input id="return" type="button" value="Retour" onclick="rtn()" />
+            <p id="day"></p>
+            <!-- /Swip -->
+        </div>
+
+        <script type="text/javascript" src="../js/scriptmain.js"></script>        
+    </body>
+</html>

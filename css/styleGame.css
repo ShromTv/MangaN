@@ -1,0 +1,107 @@
+body{
+    background-color: #00060A ;
+    color:white;
+} 
+
+/* Banner */
+
+.content .banner{
+    background-color: rgb(32, 32, 32);
+    text-align:left;
+    position: relative;
+    padding: 20px 10px;
+}
+.content .banner a {
+    padding: 0px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+.content .banner img{
+    height: 2cm;
+    width: 3cm;
+    position: absolute;
+    left: 50%;
+    top : -10px;
+}
+
+/* Button banner */
+.content .banner .div_button{
+    position: absolute;
+    right: 0px;
+    top: 2%;
+}
+.content .banner .div_button button{
+    height: 1.5cm;
+    width: 5cm;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.content .banner .div_button #contactus{
+    background-color: red;
+}
+/* Sommaire */
+
+.content .sommaire{
+    outline-style:dotted;
+    outline-color: white;
+    opacity: 0.8;
+}
+.content .sommaire h1{
+    color : red;
+    text-decoration: underline;
+}
+.content .sommaire #check{
+    height: 0.5cm;
+    width: 1cm;
+}
+.content .body .leaderboad{
+    position: absolute;
+    top: 25cm;
+}
+
+.content .body .leaderboad .gsize{
+    font-size: larger;
+    padding-bottom: 100px;
+}
+/* Button flottant*/
+.content #next{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    width: 3cm;
+    height: 1cm;
+}
+.content #b-sommaire{
+    position: fixed;
+    bottom: 10px;
+    right: 150px;
+    border-radius: 20px;
+    width: 3cm;
+    height: 1cm;
+    background-color: white;
+    text-align: center;
+}
+.content #return{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 20px;
+    width: 3cm;
+    height: 1cm;
+}
+.content #day{
+    position: fixed;
+    bottom: 10px;
+    left: 150px;
+    color:red;
+    font-size: 0.5cm;
+}
+.content .gamepanel img{
+    height: 400px;
+    width: 100%;
+    
+}
